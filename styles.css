@@ -64,6 +64,7 @@ footer {
     color: #777;
     padding: 3px;
     margin-top: 30px;
+    border-radius: 100px;
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -104,4 +105,5 @@ body.dark-mode .theme-toggle {
     background: #3b4252;
     color: #d8dee9;
     border-color: #81a1c1;
+
 }
