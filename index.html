@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>KoZe Playground</title>
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <button class="theme-toggle" id="themeButton">Dark/Light Mode</button>
+        
+        <h1>Välkommen till min hemsida!</h1>
+        
+        <div class="content">
+            <img src="name.png" alt="Error loading image" style="width:150px;">
+        
+            <p>Hej! Jag heter Joel (Nickname: KoZe) och jag är intresserad av det mesta som har med datorer och teknik att göra.</p>
+        
+            <p>Jag tycker om:</p>
+        
+            <ul>
+                <li>Att spela (CSGO/CS2, GTA och Bilspel)</li>
+                <li>Vara med familjen</li>
+                <li>Experimentera med teknik, datorer och programmering</li>
+            </ul>
+        
+            <h2>Mina förkunskaper</h2>
+            <p>Jag har inte mycket erfarenhet inom webbutveckling, men jag har gjort simpla grejer med HTML, CSS och Javascript
+                för FiveM scripts och jag vill gärna lära mig mer!</p>
+        
+            <footer>
+                <p>&copy; 2025 KoZe Playground | skolprojekt</p>
+            </footer>
+        </div>
+        <script>
+            // Switch Theme
+            const themeToggle = document.getElementById('themeButton');
+            const body = document.body;
+            const savedTheme = localStorage.getItem('theme');
+
+            // Apply saved or system theme
+            if (savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                body.classList.add('dark-mode');
+            }
+            // Toggle/switch on click
+            themeToggle.addEventListener('click', () => {
+                body.classList.toggle('dark-mode');
+                localStorage.setItem('theme', body.classList.contains('dark-mode') ? 'dark' : 'light');
+            });
+        </script>
+        </body>
+        </html>
