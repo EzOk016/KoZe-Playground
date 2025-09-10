@@ -35,7 +35,7 @@ h1 {
 }
 
 .content {
-    max-width: 800px;
+    max-width: 810px;
     margin: 0 auto;
     background: white;
     padding: 20px;
@@ -104,4 +104,5 @@ body.dark-mode .theme-toggle {
     background: #3b4252;
     color: #d8dee9;
     border-color: #81a1c1;
+
 }
