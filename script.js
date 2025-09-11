@@ -9,7 +9,9 @@ if (savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-s
 }
 
 // Toggle/switch on click
-themeToggle.addEventListener('click', () => {
-    body.classList.toggle('dark-mode');
-    localStorage.setItem('theme', body.classList.contains('dark-mode') ? 'dark' : 'light');
-});
+if (themeToggle) {
+    themeToggle.addEventListener('click', () => {
+        body.classList.toggle('dark-mode');
+        localStorage.setItem('theme', body.classList.contains('dark-mode') ? 'dark' : 'light');
+    });
+}
