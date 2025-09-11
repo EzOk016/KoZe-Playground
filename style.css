@@ -226,7 +226,7 @@ body.dark-mode .theme-toggle {
 }
 
 /* Mobile layout */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .menu-toggle {
         display: block;
     }
@@ -252,3 +252,4 @@ body.dark-mode .theme-toggle {
         padding: 15px;
     }
 }
+
