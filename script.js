@@ -15,10 +15,3 @@ if (themeToggle) {
         localStorage.setItem('theme', body.classList.contains('dark-mode') ? 'dark' : 'light');
     });
 }
-
-// Mobile Menu Toggle
-const toggle = document.querySelector('.menu-toggle');
-const links = document.querySelector('.nav-links');
-toggle.addEventListener('click', () => {
-    links.classList.toggle('show');
-});
