@@ -98,7 +98,7 @@ pre {
     background: #f0f0f0; 
     color: #2d2d2d;
     font-family: monospace;
-    padding: 15px 20px;
+    padding: 15px 24px;
     border-radius: 10px;
     max-width: 500px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.07);
@@ -225,5 +225,6 @@ body.dark-mode .theme-toggle {
         width: 100px !important;
     }
 }
+
 
 
