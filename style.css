@@ -218,10 +218,11 @@ body.dark-mode .theme-toggle {
         font-size: 1.5em;
     }
     pre {
-        padding: 9px;
+        padding: 15px;
         font-size: 0.95em;
     }
     img {
         width: 100px !important;
     }
 }
+
