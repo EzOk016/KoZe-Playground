@@ -93,12 +93,6 @@ h4 {
     transition: background-color 0.3s, color 0.3s;
 }
 
-body.dark-mode h4 {
-    color: #81a1c1;
-    text-shadow: 0 2px 8px rgba(129,161,193,0.12);
-    transition: background-color 0.3s, color 0.3s;
-}
-
 pre {
     margin: 0 auto 30px auto;
     background: #f0f0f0; 
@@ -108,12 +102,6 @@ pre {
     border-radius: 10px;
     max-width: 500px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.07);
-    transition: background-color 0.3s, color 0.3s;
-}
-
-body.dark-mode pre {
-    background: #434c5e;
-    color: #d8dee9;
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -153,13 +141,25 @@ body.dark-mode .content {
     background: #3b4252;
 }
 
-body.dark-mode footer {
-    background-color: #434c5e;
-    color: #eceff4;
+body.dark-mode h4 {
+    color: #81a1c1;
+    text-shadow: 0 2px 8px rgba(129,161,193,0.12);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode pre {
+    background: #434c5e;
+    color: #d8dee9;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 body.dark-mode h2 {
     color: #81a1c1;
+}
+
+body.dark-mode footer {
+    background-color: #434c5e;
+    color: #eceff4;
 }
 
 /* Theme toggle button */
@@ -218,7 +218,7 @@ body.dark-mode .theme-toggle {
         font-size: 1.5em;
     }
     pre {
-        padding: 10px;
+        padding: 9px;
         font-size: 0.95em;
     }
     img {
