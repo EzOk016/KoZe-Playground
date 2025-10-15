@@ -1,3 +1,4 @@
+
 body {
     display: grid;
     text-align: center;
@@ -24,7 +25,7 @@ h1 {
     #ebcb8b,
     #d08770,
     #bf616a);
-    
+
     background-size: 400%;
     background-clip: text;
     -webkit-background-clip: text;
@@ -170,10 +171,25 @@ body.dark-mode .theme-toggle:hover, body.dark-mode .log-out:hover {
     transition: background-color 0.3s, color 0.3s;
 }
 
+/* Resposive */
+@media (max-width: 768px) {
+    .content {
+        width: 42rem;
+    }
+    .theme-toggle {
+        top: 0.8rem;
+        right: 1rem;
+    }
+    .log-out {
+        top: 3.5rem;
+        right: 1rem;
+    }
+}
+
 /* Resposive (Mobile)  */
 @media (max-width: 600px) {
-    .body {
-        box-sizing: inherit;
+    .content {
+        width: 18rem;
     }
     .theme-toggle {
         top: 0.8rem;
