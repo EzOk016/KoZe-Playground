@@ -41,7 +41,7 @@ h1 {
 }
 
 .content {
-    width: 60rem;
+    width: 818px;
     margin: 10px;
     background: #ffffff;
     padding: 20px;
@@ -159,7 +159,27 @@ body.dark-mode .theme-toggle:hover {
 }
 
 /* Resposive */
-@media (max-width: 900px) {
+@media (max-width: 912px) {
+    .content {
+        width: 46rem;
+    }
+    .theme-toggle {
+        top: 0.8rem;
+        right: 1rem;
+    }
+}
+
+@media (max-width: 820px) {
+    .content {
+        width: 45rem;
+    }
+    .theme-toggle {
+        top: 0.8rem;
+        right: 1rem;
+    }
+}
+
+@media (max-width: 769px) {
     .content {
         width: 42rem;
     }
