@@ -40,7 +40,6 @@ h1 {
 }
 
 .content {
-    max-width: 814px;
     margin: 10px;
     background: #ffffff;
     padding: 20px;
@@ -160,4 +159,5 @@ body.dark-mode .theme-toggle {
         right: 1rem;
     }
 }
+
 
